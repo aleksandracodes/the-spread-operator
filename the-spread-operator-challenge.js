@@ -29,7 +29,10 @@ let students = [
 
 let subjects = [...students[0].subjects]
 
-const update = (item, val) => (item.push(val), item);
+const update = (item, val) => [...item, val];
+/*  another option to solve:
+    const update = (item, val) => (item.push(val), item);
+ */
 
 let updatedSubjects = update(subjects, "Electronics");
 
