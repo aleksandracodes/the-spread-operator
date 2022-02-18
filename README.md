@@ -1,3 +1,3 @@
 # The Spread Operator
 
-... learning rest parameter syntax with Code institutee
+... learning about the spread operator with Code institutee
